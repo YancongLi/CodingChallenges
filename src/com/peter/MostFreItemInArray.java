@@ -41,7 +41,7 @@ public class MostFreItemInArray {
 
         HashMap<Integer, Integer> map = new HashMap<>();
         int max = 0;
-        for(int i = 0; i < givenArray.length; i++) {
+        for (int i = 0; i < givenArray.length; i++) {
 
             Integer key = givenArray[i];
             Integer value = map.get(key);

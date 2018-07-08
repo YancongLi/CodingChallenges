@@ -45,31 +45,32 @@ public class RotationArray {
 
     // Implement your solution below.
     public static Boolean isRotation(int[] array1, int[] array2) {
-        boolean returnVal = true;
-
         if (array1.length != array2.length) {
-            returnVal = false;
+            return false;
         }
 
         ArrayList<Integer> a1 = new ArrayList<>();
-        for (int i = 0; i < array1.length; i++) {
-            a1.add(array1[i]);
+        for (int i : array1) {
+            a1.add(i);
         }
 
         int pointer = a1.indexOf(array2[0]);
+        if (pointer == -1) {
+            return false;
+        }
 
         for (int i = 0; i < array2.length; i++) {
-            if (array1[pointer] != array2[i]){
-                returnVal = false;
+            if (array1[pointer] != array2[i]) {
+                return false;
             }
 
-            if (pointer+1 == array1.length){
+            if (pointer + 1 == array1.length) {
                 pointer = 0;
-            }else {
+            } else {
                 pointer++;
             }
 
         }
-        return returnVal;
+        return true;
     }
 }

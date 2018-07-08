@@ -16,23 +16,19 @@ public class MaxNumInSentences {
     /*
         A function that returns the maximum number of words a sentence in a given String(multiple sentences) ,separating by (. ! ?)
     */
-    public static int solution(String S) {
-
+    public static int solution(String str) {
         int max = 0;
 
-        final String[] sentences = S.split("\\.|\\!|\\?");
+        final String[] sentences = str.split("\\.|\\!|\\?");
 
-//        for (String s : sentences) {
-//            System.out.println(s);
-//        }
-
-        for (String s: sentences) {
+        for (String s : sentences) {
             int i, counter = 0;
             char ch[] = new char[s.length()];
             for (i = 0; i < s.length(); i++) {
                 ch[i] = s.charAt(i);
-                if (((i > 0) && (ch[i] != ' ') && (ch[i - 1] == ' ')) || ((ch[0] != ' ') &&                     (i == 0)))
+                if (((i > 0) && (ch[i] != ' ') && (ch[i - 1] == ' ')) || ((ch[0] != ' ') && (i == 0))) {
                     counter++;
+                }
             }
 
             if (counter > max) {

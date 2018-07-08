@@ -1,0 +1,13 @@
+
+*.xml
+*.xml
+.idea/workspace.xml
+.idea/workspace.xml
+.idea/checkstyle-idea.xml
+src/com/peter/.DS_Store
+*.class
+*.class
+*.class
+*.class
+*.xml
+.idea/checkstyle-idea.xml
