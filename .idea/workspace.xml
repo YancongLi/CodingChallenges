@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cefbfed-7c09-4c88-a80a-558f83efe73a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/CommonElementsIn2Arrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/CommonElementsIn2Arrays.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/MaxNumInSentences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/MaxNumInSentences.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/MostFreItemInArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/MostFreItemInArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/RotationArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingChallenges/com/peter/RotationArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/peter/CommonElementsIn2Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/peter/CommonElementsIn2Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/peter/MaxNumInSentences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/peter/MaxNumInSentences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/peter/MostFreItemInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/peter/MostFreItemInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/peter/RotationArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/peter/RotationArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,13 +34,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonRepeatingCharacter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NonRepeatingCharacter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/peter/NonRepeatingCharacter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="38">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneAwayStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/peter/OneAwayStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+              <folding>
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,6 +89,7 @@
         <option value="$PROJECT_DIR$/src/com/peter/MaxNumInSentences.java" />
         <option value="$PROJECT_DIR$/src/com/peter/RotationArray.java" />
         <option value="$PROJECT_DIR$/src/com/peter/NonRepeatingCharacter.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/OneAwayStrings.java" />
       </list>
     </option>
   </component>
@@ -96,7 +102,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="55" />
     <option name="y" value="22" />
     <option name="width" value="1225" />
@@ -232,15 +238,15 @@
       <workItem from="1509844561539" duration="1790000" />
       <workItem from="1511424387849" duration="4347000" />
       <workItem from="1511810905707" duration="421000" />
-      <workItem from="1531001886797" duration="8678000" />
+      <workItem from="1531001886797" duration="9956000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15236000" />
+    <option name="totallyTimeSpent" value="16514000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="22" width="1225" height="778" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
@@ -253,7 +259,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="right" id="Run" order="9" visible="true" weight="0.28994083" />
+      <window_info anchor="right" id="Run" order="9" visible="true" weight="0.27705976" />
       <window_info anchor="bottom" id="CheckStyle" weight="0.32892805" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="2" />
@@ -404,10 +410,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/peter/NonRepeatingCharacter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        <state relative-caret-position="38">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/OneAwayStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <folding>
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
           </folding>
         </state>
       </provider>
