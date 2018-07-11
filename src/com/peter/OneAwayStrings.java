@@ -35,29 +35,19 @@ public class OneAwayStrings {
         final int s1length = s1.length();
         final int s2length = s2.length();
 
-        if (s1length - s2length > 1 || s2length - s1length > 1) {//"abc", "abcde" => eliminates invalid length difference
+        if (s1length - s2length > 1 || s2length - s1length > 1) {//case1: "abc", "abcde" => eliminates invalid length difference
             return false;
         }
 
-        if (s1.equals(s2)) {//"a", "a"
+        if (s1.equals(s2)) {//case2: "a", "a"
             return true;
         }
 
-        if (s1.contains(s2) || s2.contains(s1)) {//"abcde", "abcd"
+        if (s1.contains(s2) || s2.contains(s1)) {//case3: "abcde", "abcd"
             return true;
         }
 
-        ArrayList<Character> characterArrayList1 = new ArrayList<>();
-        ArrayList<Character> characterArrayList2 = new ArrayList<>();
-        ArrayList<Character> tempArray;
-        for (char c : s1.toCharArray()) {
-            characterArrayList1.add(c);
-        }
-        for (char c : s2.toCharArray()) {
-            characterArrayList2.add(c);
-        }
-
-        //case: "abcdef", "abqdef"
+        //case4: "abcdef", "abqdef"
         if (s1length == s2length) {
             int differenceCounter = 0;
             char[] c1 = s1.toCharArray();
@@ -73,7 +63,18 @@ public class OneAwayStrings {
             return true;
         }
 
-        if (s1length > s2length) {//case: "abcde", "abde"
+        //case 5:
+        ArrayList<Character> characterArrayList1 = new ArrayList<>();
+        ArrayList<Character> characterArrayList2 = new ArrayList<>();
+        ArrayList<Character> tempArray;
+        for (char c : s1.toCharArray()) {
+            characterArrayList1.add(c);
+        }
+        for (char c : s2.toCharArray()) {
+            characterArrayList2.add(c);
+        }
+
+        if (s1length > s2length) {//"abcde", "abde"
             for (int i = 1; i < s1length - 1; i++) {
                 tempArray = (ArrayList<Character>) characterArrayList1.clone();
                 tempArray.remove(i);
@@ -82,7 +83,7 @@ public class OneAwayStrings {
                     return true;
                 }
             }
-        } else {//case: "abde", "abcde"
+        } else {//"abde", "abcde"
             for (int i = 1; i < s2length - 1; i++) {
                 tempArray = (ArrayList<Character>) characterArrayList2.clone();
                 tempArray.remove(i);
