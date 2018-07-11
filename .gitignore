@@ -13,3 +13,5 @@ src/com/peter/.DS_Store
 .idea/checkstyle-idea.xml
 .idea/workspace.xml
 *.xml
+.idea/workspace.xml
+*.xml
