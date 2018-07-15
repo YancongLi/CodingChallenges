@@ -1,4 +1,4 @@
-package com.peter;
+package com.peter.elevenEssentialCodingQuestions;
 
 /*
 Write a function that takes two strings and returns true if they are one away

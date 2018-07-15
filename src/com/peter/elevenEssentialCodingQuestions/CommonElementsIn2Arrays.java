@@ -1,4 +1,4 @@
-package com.peter;
+package com.peter.elevenEssentialCodingQuestions;
 
 /*
 * Write a function that returns the common elements (as an array) between two sorted arrays

@@ -1,4 +1,4 @@
-package com.peter;
+package com.peter.elevenEssentialCodingQuestions;
 
 /*
 * Find the most frequently occurring item in an array.

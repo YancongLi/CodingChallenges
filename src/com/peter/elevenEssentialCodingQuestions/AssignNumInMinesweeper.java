@@ -1,4 +1,4 @@
-package com.peter;
+package com.peter.elevenEssentialCodingQuestions;
 
 /*
 

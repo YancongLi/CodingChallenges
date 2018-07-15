@@ -1,4 +1,4 @@
-package com.peter;
+package com.peter.elevenEssentialCodingQuestions;
 
 /*
 Implement a function that takes a string and returns first character that does not appear
