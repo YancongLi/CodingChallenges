@@ -48,20 +48,14 @@ public class Problem1 {
     }
 
     private static boolean binarySearchSolution(int[] a, int k) {
-        int[] sortedArray = a;
-        Arrays.sort(sortedArray);
-
-        for (int i = 0; i < sortedArray.length; i++) {
-            int target = k - sortedArray[i];
-            int indexResult = Arrays.binarySearch(sortedArray, target);
-
-            if (indexResult == -1) {
-                continue;
-            } else if (indexResult != i) {
+        Arrays.sort(a);
+        for (int i = 0; i < a.length; i++) {
+            int target = k - a[i];
+            int indexResult = Arrays.binarySearch(a, target);
+            if (indexResult != i) {
                 return true;
             }
         }
-
         return false;
     }
 
