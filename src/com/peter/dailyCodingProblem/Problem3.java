@@ -43,15 +43,14 @@ public class Problem3 {
         // Decodes your encoded data to tree.
         static Node deserialize(String data) {
             String[] temp = data.split(separator);
-            return deserializeStringArray(temp, new int[]{0});
+            return deserializeStringArray(temp, 0);
         }
 
-        private static Node deserializeStringArray(String[] temp, int[] index) {
-            if (index[0] > temp.length || temp[index[0]].equals("null")) {
-                index[0]++;
+        private static Node deserializeStringArray(String[] temp, int index) {
+            if (index > temp.length || temp[index].equals("null")) {
                 return null;
             }
-            return new Node(temp[index[0]++], deserializeStringArray(temp, index), deserializeStringArray(temp, index));
+            return new Node(temp[index++], deserializeStringArray(temp, index), deserializeStringArray(temp, index));
         }
     }
 
