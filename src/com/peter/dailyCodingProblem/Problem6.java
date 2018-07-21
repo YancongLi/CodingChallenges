@@ -7,7 +7,6 @@ If using a language that has no pointers (such as Python), you can assume you ha
 */
 
 public class Problem6 {
-
     public static void main(String[] args) {
 
     }
