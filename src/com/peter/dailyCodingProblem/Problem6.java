@@ -61,7 +61,7 @@ class xorLinkedList {
     }
 
     private Node getObjectFromMemory(int next_id) {
-        return null; //Unfortunately, in java, you can't get an object using this reference id.
+        return null; //Unfortunately, in java, you can't get an object using memory reference id.
         //However, in python, you can do this:
         /*
         code:
