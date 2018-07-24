@@ -18,5 +18,12 @@ public class Problem5 {
 
 
     }
+    /*Python solution:
+      def car(pair):
+        return pair(lambda a, b: a)
+
+      def cdr(pair):
+        return pair(lambda a, b: b)
+    * */
 
 }
