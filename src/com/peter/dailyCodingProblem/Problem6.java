@@ -13,56 +13,55 @@ import java.util.ArrayList;
 public class Problem6 {
     public static void main(String[] args) {
     }
-}
 
-class Node {
-    int xor;
-    private int val;
+    class Node {
+        int xor;
+        private int val;
 
-    public Node(int val) {
-        this.val = val;
-    }
-}
-
-class xorLinkedList {
-    Node head;
-    Node tail;
-    ArrayList<Node> nodeArray = new ArrayList<>(); //This is to prevent garbage collection
-
-    public void add(Node node) {
-        if (head == null) {
-            this.head = node;
-            this.tail = node;
-        } else {
-            this.tail.xor = this.tail.xor ^ System.identityHashCode(node);
-            node.xor = System.identityHashCode(node);
-            this.tail = node;
+        public Node(int val) {
+            this.val = val;
         }
-        nodeArray.add(node);
     }
 
-    public Node get(int index) {
-        int prev_id = 0;
-        int next_id = 0;
-        Node node = head;
-        if (node == null) {
-            System.out.println("This xor linked list is empty.");
-        }
-        for (int i = 0; i < index; i++) {
-            next_id = prev_id ^ (node.xor);
-            if (next_id != 0) {
-                prev_id = node.xor;
-                node = getObjectFromMemory(next_id);
+    class xorLinkedList {
+        Node head;
+        Node tail;
+        ArrayList<Node> nodeArray = new ArrayList<>(); //This is to prevent garbage collection
+
+        public void add(Node node) {
+            if (head == null) {
+                this.head = node;
+                this.tail = node;
             } else {
-                System.out.println("Index out of bound.");
+                this.tail.xor = this.tail.xor ^ System.identityHashCode(node);
+                node.xor = System.identityHashCode(node);
+                this.tail = node;
             }
+            nodeArray.add(node);
         }
-        return node;
-    }
 
-    private Node getObjectFromMemory(int next_id) {
-        return null; //Unfortunately, in java, you can't get an object using memory reference id.
-        //However, in python, you can do this:
+        public Node get(int index) {
+            int prev_id = 0;
+            int next_id = 0;
+            Node node = head;
+            if (node == null) {
+                System.out.println("This xor linked list is empty.");
+            }
+            for (int i = 0; i < index; i++) {
+                next_id = prev_id ^ (node.xor);
+                if (next_id != 0) {
+                    prev_id = node.xor;
+                    node = getObjectFromMemory(next_id);
+                } else {
+                    System.out.println("Index out of bound.");
+                }
+            }
+            return node;
+        }
+
+        private Node getObjectFromMemory(int next_id) {
+            return null; //Unfortunately, in java, you can't get an object using memory reference id.
+            //However, in python, you can do this:
         /*
         code:
         import ctypes
@@ -72,8 +71,11 @@ class xorLinkedList {
         output:
         hello world
         */
+        }
     }
+
 }
+
 
 //Python solution:
 /*
