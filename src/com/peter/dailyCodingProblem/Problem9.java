@@ -35,15 +35,13 @@ public class Problem9 {
             cache[i] = Math.max((num + cache[i - 2]), cache[i - 1]);
         }
         return cache[a.length - 1];
-
-
     }
 
 //    private static int largestSumOfNonAdjacentNumbersWithRecursion(int[] array) { ---> will cause stack overflow ,because O(2^n)
 //        if (array.length == 0) {
 //            return 0;
 //        }
-//
-//        return Math.max(largestSumOfNonAdjacentNumbersWithRecursion(Arrays.copyOfRange(array, 1, array.length)), (array[0] + (largestSumOfNonAdjacentNumbersWithRecursion(array.length >= 2 ? Arrays.copyOfRange(array, 2, array.length) : array))));
+//        return Math.max(largestSumOfNonAdjacentNumbersWithRecursion(Arrays.copyOfRange(array, 1, array.length)),
+//                       (array[0] + (largestSumOfNonAdjacentNumbersWithRecursion(array.length >= 2 ? Arrays.copyOfRange(array, 2, array.length) : array))));
 //    }
 }
