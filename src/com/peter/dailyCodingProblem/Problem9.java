@@ -19,6 +19,9 @@ public class Problem9 {
         int[] a2 = {5, 1, 1, 5};
         //System.out.println(largestSumOfNonAdjacentNumbersWithRecursion(a2));// should return 10 (5 + 5)
         System.out.println(largestSumOfNonAdjacentNumbersWithDP(a2));// should return 10 (5 + 5)
+
+        int[] a3 = {1, 2};
+        System.out.println(largestSumOfNonAdjacentNumbersWithDP(a3));// should return 2
     }
 
     private static int largestSumOfNonAdjacentNumbersWithDP(int[] a) {
