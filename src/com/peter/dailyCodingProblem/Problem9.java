@@ -37,7 +37,7 @@ public class Problem9 {
         return cache[a.length - 1];
     }
 
-//    private static int largestSumOfNonAdjacentNumbersWithRecursion(int[] array) { ---> will cause stack overflow ,because O(2^n)
+//    private static int largestSumOfNonAdjacentNumbersWithRecursion(int[] array) { --->  O(2^n)
 //        if (array.length == 0) {
 //            return 0;
 //        }
