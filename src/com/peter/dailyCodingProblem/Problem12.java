@@ -15,6 +15,16 @@ What if, instead of being able to climb 1 or 2 steps at a time, you could climb 
 
 public class Problem12 {
     public static void main(String[] args) {
+        System.out.println(numOfWaysToClimb(1));//should return 1
+        System.out.println(numOfWaysToClimb(2));//should return 1
+        System.out.println(numOfWaysToClimb(3));//should return 3
+        System.out.println(numOfWaysToClimb(4));//should return 5
+    }
 
+    private static int numOfWaysToClimb(int n) {
+        if (n <= 1) {
+            return 1;
+        }
+        return numOfWaysToClimb(n-1) + numOfWaysToClimb(n-2);
     }
 }
