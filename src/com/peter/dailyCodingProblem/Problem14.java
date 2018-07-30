@@ -25,7 +25,7 @@ public class Problem14 {
             numOfThrows++;
         }
 
-        double pi = 4 * ((double)numOfSuccess/(double) numOfThrows);
+        double pi = 4 * ((double) numOfSuccess / (double) numOfThrows);
         System.out.println("Estimated value of Pi: " + pi);
         System.out.println("Actual value of Pi: " + Math.PI);
     }
