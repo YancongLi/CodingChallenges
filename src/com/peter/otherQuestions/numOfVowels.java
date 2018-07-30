@@ -1,4 +1,4 @@
-package com.peter.OtherQuestions;
+package com.peter.otherQuestions;
 
 /*
 Find the number of vowels and consonants in a given string

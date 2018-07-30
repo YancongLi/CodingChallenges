@@ -1,4 +1,4 @@
-package com.peter.OtherQuestions;
+package com.peter.otherQuestions;
 
 public class MaxNumInSentences {
 

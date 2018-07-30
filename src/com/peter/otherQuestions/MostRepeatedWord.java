@@ -1,4 +1,4 @@
-package com.peter.OtherQuestions;
+package com.peter.otherQuestions;
 
 /*
 Determine the most repeated word in a given string.
