@@ -16,3 +16,5 @@ src/com/peter/.DS_Store
 .idea/workspace.xml
 *.xml
 *.xml
+*.xml
+.idea/workspace.xml
