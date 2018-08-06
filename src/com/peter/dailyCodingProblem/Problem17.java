@@ -33,7 +33,6 @@ The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
 */
 
-import java.util.Arrays;
 import java.util.Stack;
 
 public class Problem17 {
