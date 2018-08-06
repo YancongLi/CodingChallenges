@@ -33,8 +33,58 @@ The name of a file contains at least a period and an extension.
 The name of a directory or sub-directory will not contain a period.
 */
 
+import java.util.Arrays;
+import java.util.Stack;
+
 public class Problem17 {
     public static void main(String[] args) {
-
+        String string1 = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext";
+        System.out.println(theLengthOfTheLongestAbsolutePath(string1));
+        //should return 32 ("dir/subdir2/subsubdir2/file2.ext")
     }
+
+    private static int theLengthOfTheLongestAbsolutePath(String str) {
+        Stack<File> stack = new Stack<>();
+        String[] paths = str.split("\\n");
+        //System.out.println(Arrays.toString(paths));
+        String result = null;
+
+        for (String path : paths) {
+            int level = path.lastIndexOf("\t") + 1;
+            path = path.substring(level);
+
+            boolean isFile = path.contains(".");
+            while (!stack.isEmpty() && stack.peek().level >= level) {
+                stack.pop();
+            }
+
+            if (isFile) {
+                String fullPath = path;
+                if (!stack.isEmpty()) {
+                    fullPath = stack.peek().path + "/" + path;
+                }
+                if (result == null || fullPath.length() > result.length()) {
+                    result = fullPath;
+                }
+            } else {
+                if (stack.isEmpty()) {
+                    stack.push(new File(path, level));
+                } else {
+                    stack.push(new File(stack.peek().path + "/" + path, level));
+                }
+            }
+        }
+        return result == null ? 0 : result.length();
+    }
+
+    private static class File {
+        String path;
+        int level;
+
+        public File(String path, int level) {
+            this.path = path;
+            this.level = level;
+        }
+    }
+
 }
