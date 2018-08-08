@@ -14,6 +14,9 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 8 = max(7, 8, 7)
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 */
+
+//https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/
+
 public class Problem18 {
     public static void main(String[] args) {
         int[] a1 = {10, 5, 2, 7, 8, 7};
