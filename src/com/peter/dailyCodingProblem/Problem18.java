@@ -17,10 +17,43 @@ Do this in O(n) time and O(k) space. You can modify the input array in-place and
 public class Problem18 {
     public static void main(String[] args) {
         int[] a1 = {10, 5, 2, 7, 8, 7};
-        System.out.println(Arrays.toString(maxValuesOfSubarray(a1, 3)));//should return [10, 7, 8, 8]
+        System.out.println(Arrays.toString(maxValuesOfSubArray(a1, 3)));//should return [10, 7, 8, 8]
+        System.out.println(Arrays.toString(maxSlidingWindow(a1, 3)));//should return [10, 7, 8, 8]
+        int[] a2 = {1, 3, -1, -3, 5, 3, 6, 7};
+        System.out.println(Arrays.toString(maxValuesOfSubArray(a2, 3)));//should return [3,3,5,5,6,7]
+        System.out.println(Arrays.toString(maxSlidingWindow(a2, 3)));//should return [3,3,5,5,6,7]
     }
 
-    private static int[] maxValuesOfSubarray(int[] a, int k) {//this is O(n * k)
+    private static int[] maxSlidingWindow(int[] a, int k) {//O(n)
+        if (k < 1 || k > a.length) {
+            return new int[0];
+        }
+        int[] leftMax = new int[a.length];
+        int[] rightMax = new int[a.length];
+        int leftMaxVal = 0;
+        int rightMaxVal = a[a.length - 1];
+        for (int i = 0; i < a.length; i++) {
+            leftMaxVal = (i % k == 0) ? a[i] : Math.max(leftMaxVal, a[i]);
+            leftMax[i] = leftMaxVal;
+        }
+        //System.out.println("lefMax array: " + Arrays.toString(leftMax));
+        for (int i = a.length - 1; i >= 0; i--) {
+            rightMaxVal = ((i + 1) % k == 0) ? a[i] : Math.max(rightMaxVal, a[i]);
+            rightMax[i] = rightMaxVal;
+        }
+        //System.out.println("rightMax array: " + Arrays.toString(rightMax));
+        int[] output = new int[a.length - k + 1];
+        int j = 0;
+        for (int i = 0; i + k <= a.length; i++) {
+            output[j++] = Math.max(rightMax[i], leftMax[i + k - 1]);
+        }
+        return output;
+    }
+
+    private static int[] maxValuesOfSubArray(int[] a, int k) {//this is O(n * k)
+        if (k < 1 || k > a.length) {
+            return new int[0];
+        }
         ArrayList<Integer> resultArray = new ArrayList<>();
         ArrayList<Integer> inputArray = new ArrayList<>();
         for (int i : a) {
