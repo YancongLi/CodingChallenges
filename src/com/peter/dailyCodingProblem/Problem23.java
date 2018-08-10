@@ -53,8 +53,10 @@ public class Problem23 {
     }
 
     static class SearchBoardWithBFS {
+        //To get row and column numbers of 4 neighbours of a given cell:
         private final int[] rowDirection = new int[]{-1, 0, 0, 1};
         private final int[] colDirection = new int[]{0, -1, 1, 0};
+        //-------------------
         private int numOfRow;
         private int numOfCol;
         private boolean[][] board;
