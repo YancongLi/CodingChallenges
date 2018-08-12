@@ -1,6 +1,6 @@
 package com.peter.dailyCodingProblem;
 /*
-Implement locking in a binary tree. A binary tree node can be locked or unlocked only if all of Implement regular expression matching with the following special characters:
+Implement regular expression matching with the following special characters:
 
 . (period) which matches any single character
 * (asterisk) which matches zero or more of the preceding element
