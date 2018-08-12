@@ -17,17 +17,12 @@ public class Problem24 {
         TreeNodeWithLock node4 = new TreeNodeWithLock(4);
         TreeNodeWithLock node5 = new TreeNodeWithLock(5);
 
-        //build the tree:
-        node1.leftNode = node2;
-        node2.parentNode = node1;
-        node1.rightNode = node3;
-        node3.parentNode = node1;
-        node3.leftNode = node4;
-        node4.parentNode = node3;
-        node3.rightNode = node5;
-        node5.parentNode = node3;
+        buildATestTree(node1, node2, node3, node4, node5);
 
-        //simple tests:
+        testOutputs(node1, node2, node3, node4, node5);
+    }
+
+    private static void testOutputs(TreeNodeWithLock node1, TreeNodeWithLock node2, TreeNodeWithLock node3, TreeNodeWithLock node4, TreeNodeWithLock node5) {
         System.out.println(node3.isLocked());//should return false
         System.out.println(node3.lock());    //should return true
         System.out.println(node3.isLocked());//should return true
@@ -39,6 +34,17 @@ public class Problem24 {
         System.out.println(node5.unlock());  //should return false
         System.out.println(node2.lock());    //should return true
         System.out.println(node3.unlock());  //should return true
+    }
+
+    private static void buildATestTree(TreeNodeWithLock node1, TreeNodeWithLock node2, TreeNodeWithLock node3, TreeNodeWithLock node4, TreeNodeWithLock node5) {
+        node1.leftNode = node2;
+        node2.parentNode = node1;
+        node1.rightNode = node3;
+        node3.parentNode = node1;
+        node3.leftNode = node4;
+        node4.parentNode = node3;
+        node3.rightNode = node5;
+        node5.parentNode = node3;
     }
 
     static class TreeNodeWithLock {
@@ -78,11 +84,7 @@ public class Problem24 {
                 return false;
             }
             this.isLocked = true;
-            TreeNodeWithLock nodePointer = this.parentNode;
-            while (nodePointer != null) {
-                nodePointer.numOfLockedDescendants ++;
-                nodePointer = nodePointer.parentNode;
-            }
+            increaseNumOfDescendantsByOneForParentNodes();
             return true;
         }
 
@@ -94,12 +96,24 @@ public class Problem24 {
                 return false;
             }
             this.isLocked = false;
+            decreaseNumOfDescendantsByOneForParentNodes();
+            return true;
+        }
+
+        private void increaseNumOfDescendantsByOneForParentNodes() {
+            TreeNodeWithLock nodePointer = this.parentNode;
+            while (nodePointer != null) {
+                nodePointer.numOfLockedDescendants ++;
+                nodePointer = nodePointer.parentNode;
+            }
+        }
+
+        private void decreaseNumOfDescendantsByOneForParentNodes() {
             TreeNodeWithLock nodePointer = this.parentNode;
             while(nodePointer!= null) {
                 nodePointer.numOfLockedDescendants--;
                 nodePointer = nodePointer.parentNode;
             }
-            return true;
         }
     }
 }
