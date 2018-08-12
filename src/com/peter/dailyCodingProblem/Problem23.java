@@ -75,35 +75,38 @@ public class Problem23 {
             if (board[source.x][source.y] || board[destination.x][destination.y]) {
                 return -1;
             }
-
+            // Mark the source cell as visited
             boolean[][] visited = new boolean[numOfRow][numOfCol];
-
+            // Create a queue for BFS
             Queue<QueueNode> queueNodes = new ArrayDeque<>();
+            // Distance of source cell is 0
             QueueNode sourceNode = new QueueNode(source, 0);
+            // Enqueue source cell
             queueNodes.add(sourceNode);
-
+            // BFS starting from source cell
             while (!queueNodes.isEmpty()) {
                 QueueNode current = queueNodes.peek();
                 Point point = current.point;
-
                 if (point.x == destination.x && point.y == destination.y) {
                     return current.distance;
                 }
-
                 queueNodes.poll();
-
-                for (int i = 0; i < 4; i++) {
-                    int row = point.x + rowDirection[i];
-                    int col = point.y + colDirection[i];
-
-                    if (isInTheRangeOfBoard(row, col) && !board[row][col] && !visited[row][col]) {
-                        visited[row][col] = true;
-                        QueueNode adjacentCell = new QueueNode(new Point(row, col), current.distance + 1);
-                        queueNodes.add(adjacentCell);
-                    }
-                }
+                enqueueAdjacentCells(visited, queueNodes, current, point);
             }
             return -1;
+        }
+
+        private void enqueueAdjacentCells(boolean[][] visited, Queue<QueueNode> queueNodes, QueueNode current, Point point) {
+            for (int i = 0; i < 4; i++) {
+                int row = point.x + rowDirection[i];
+                int col = point.y + colDirection[i];
+
+                if (isInTheRangeOfBoard(row, col) && !board[row][col] && !visited[row][col]) {
+                    visited[row][col] = true;
+                    QueueNode adjacentCell = new QueueNode(new Point(row, col), current.distance + 1);
+                    queueNodes.add(adjacentCell);
+                }
+            }
         }
     }
 }
