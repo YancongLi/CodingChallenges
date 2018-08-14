@@ -17,6 +17,9 @@ For example, given the list of words ["the", "quick", "brown", "fox", "jumps", "
 ["the  quick brown", # 1 extra space on the left
 "fox  jumps  over", # 2 extra spaces distributed evenly
 "the   lazy   dog"] # 4 extra spaces distributed evenly
+
+["This    is    an","example  of text","justification.    "]
+["This    is    an","example  of text","justification.  "]
 */
 public class Problem28 {
     public static void main(String[] args) {
@@ -30,6 +33,11 @@ public class Problem28 {
         "fox  jumps  over", # 2 extra spaces distributed evenly
         "the   lazy   dog"] # 4 extra spaces distributed evenly
         */
+        System.out.println("---");
+        String[] listOfWords2 = {"This", "is", "an", "example", "of", "text", "justification."};
+        for (String str: justifyText(listOfWords, 16)) {
+            System.out.println(str.length());//should return 16
+        }
     }
 
     private static String[] justifyText(String[] listOfWords, int k) {
@@ -53,9 +61,9 @@ public class Problem28 {
             if (listOfGroupedStrings.size() == 1) {
                 String word = listOfGroupedStrings.get(0);
                 int numOfSpaces = length - word.length();
-                String space = " ";
+                String space = "";
                 for (int i = 0; i < numOfSpaces; i++) {
-                    space += space;
+                    space += " ";
                 }
                 result.add(word + space);
                 continue;
