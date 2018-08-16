@@ -1,5 +1,6 @@
 package com.peter.dailyCodingProblem;
-/*
+
+/* [https://leetcode.com/problems/trapping-rain-water/description/]
 You are given an array of non-negative integers that represents a two-dimensional elevation map where each element is unit-width wall and the integer is the height. Suppose it will rain and all spots between two walls get filled up.
 
 Compute how many units of water remain trapped on the map in O(N) time and O(1) space.
@@ -10,6 +11,43 @@ Given the input [3, 0, 1, 3, 0, 5], we can hold 3 units in the first index, 2 in
 */
 public class Problem30 {
     public static void main(String[] args) {
+        int[] a1 = {2, 1, 2};
+        System.out.println(trap(a1));//should return 1
+        int[] a2 = {3, 0, 1, 3, 0, 5};
+        System.out.println(trap(a2));//should return 8
+        int[] a3 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        System.out.println(trap(a3));//should return 6
+        int[] a4 = {3, 0, 0, 2, 0, 4};
+        System.out.println(trap(a4));//should return 10
+    }
 
+    //O(N) time and O(1) space
+    private static int trap(int[] height) {
+        if (height.length < 3) {
+            return 0;
+        }
+        int maxIndex = 0;
+        int maxNum = height[0];
+        for (int i = 1; i < height.length; i++) {
+            int temp = height[i];
+            if (temp > maxNum) {
+                maxNum = temp;
+                maxIndex = i;
+            }
+        }
+        int result = 0;
+        int leftMax = height[0];
+        for (int i = 1; i < maxIndex; i++) {
+            int dif = leftMax - height[i];
+            result += (dif > 0 ? dif : 0);
+            leftMax = Math.max(leftMax, height[i]);
+        }
+        int rightMax = height[height.length - 1];
+        for (int i = height.length - 2; i > maxIndex; i--) {
+            int dif = rightMax - height[i];
+            result += (dif > 0 ? dif : 0);
+            rightMax = Math.max(rightMax, height[i]);
+        }
+        return result;
     }
 }
