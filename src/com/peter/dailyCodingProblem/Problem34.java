@@ -16,8 +16,8 @@ public class Problem34 {
     }
 
     private static String producePalindrome(String string) {
-        if (string.length() == 0) {
-            return "";
+        if (string.length() <= 1) {
+            return string;
         }
         String palindrome1 = makePalindromeFromLastChar(string);
         String palindrome2 = makePalindromeFromFirstChar(string);
