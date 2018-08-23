@@ -1,7 +1,7 @@
 package com.peter.dailyCodingProblem;
 
 /*
-Given the root to a binary search tree, find the second largest node in the tree.
+Given the root to a binary search tree, find the second largest node in the tree. (second smallest value is guaranteed)
 */
 public class Problem36 {
     public static void main(String[] args) {
