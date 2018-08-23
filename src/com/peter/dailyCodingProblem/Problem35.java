@@ -19,7 +19,6 @@ public class Problem35 {
         if (characters.length <= 1) {
             return characters;
         }
-        
         int pointer1 = 0;
         int pointer2 = 1;
 
