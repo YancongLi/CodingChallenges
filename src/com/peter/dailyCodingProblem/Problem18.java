@@ -1,7 +1,9 @@
 package com.peter.dailyCodingProblem;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 
 /*
 Given an array of integers and a number k, where 1 <= k <= length of the array, compute the maximum values of each subarray of length k.
@@ -27,30 +29,65 @@ public class Problem18 {
         System.out.println(Arrays.toString(maxSlidingWindow(a2, 3)));//should return [3,3,5,5,6,7]
     }
 
-    private static int[] maxSlidingWindow(int[] a, int k) {//O(n)
-        if (k < 1 || k > a.length) {
+    private static int[] maxSlidingWindow(int[] array, int windowSize) {//O(n)
+        ArrayDeque<Integer> result = new ArrayDeque<Integer>();
+        if (array.length < windowSize || array.length == 0) {
             return new int[0];
         }
-        int[] leftMax = new int[a.length];
-        int[] rightMax = new int[a.length];
-        int leftMaxVal = 0;
-        int rightMaxVal = a[a.length - 1];
-        for (int i = 0; i < a.length; i++) {
-            leftMaxVal = (i % k == 0) ? a[i] : Math.max(leftMaxVal, a[i]);
-            leftMax[i] = leftMaxVal;
+
+        ArrayDeque<Integer> window = new ArrayDeque<Integer>();
+
+        for (int i = 0; i < windowSize; i++) {
+            while (!window.isEmpty() && array[i] > window.peekLast()) {
+                window.removeLast();
+            }
+
+            window.addLast(array[i]);
         }
-        //System.out.println("lefMax array: " + Arrays.toString(leftMax));
-        for (int i = a.length - 1; i >= 0; i--) {
-            rightMaxVal = ((i + 1) % k == 0) ? a[i] : Math.max(rightMaxVal, a[i]);
-            rightMax[i] = rightMaxVal;
+        result.addLast(window.peekFirst());
+
+        for (int i = windowSize; i < array.length; i++) {
+            while (!window.isEmpty() && array[i] > window.peekLast()) {
+                window.removeLast();
+            }
+            window.addLast(array[i]);
+            if (!window.isEmpty() && window.peekFirst() == array[i - windowSize]) {
+                window.removeFirst();
+            }
+            result.addLast(window.peekFirst());
         }
-        //System.out.println("rightMax array: " + Arrays.toString(rightMax));
-        int[] output = new int[a.length - k + 1];
-        int j = 0;
-        for (int i = 0; i + k <= a.length; i++) {
-            output[j++] = Math.max(rightMax[i], leftMax[i + k - 1]);
+
+        int[] output = new int[result.size()];
+
+        int count = 0;
+        for (Iterator<Integer> i = result.iterator(); i.hasNext(); ) {
+            output[count++] = i.next();
         }
+
         return output;
+//        if (k < 1 || k > a.length) {
+//            return new int[0];
+//        }
+//        int[] leftMax = new int[a.length];
+//        int[] rightMax = new int[a.length];
+//        int leftMaxVal = 0;
+//        int rightMaxVal = a[a.length - 1];
+//        for (int i = 0; i < a.length; i++) {
+//            leftMaxVal = (i % k == 0) ? a[i] : Math.max(leftMaxVal, a[i]);
+//            leftMax[i] = leftMaxVal;
+//        }
+//        //System.out.println("lefMax array: " + Arrays.toString(leftMax));
+//        for (int i = a.length - 1; i >= 0; i--) {
+//            rightMaxVal = ((i + 1) % k == 0) ? a[i] : Math.max(rightMaxVal, a[i]);
+//            rightMax[i] = rightMaxVal;
+//        }
+//        //System.out.println("rightMax array: " + Arrays.toString(rightMax));
+//        int[] output = new int[a.length - k + 1];
+//        int j = 0;
+//        for (int i = 0; i + k <= a.length; i++) {
+//            output[j++] = Math.max(rightMax[i], leftMax[i + k - 1]);
+//        }
+//        return output;
     }
 
     private static int[] maxValuesOfSubArray(int[] a, int k) {//this is O(n * k)
