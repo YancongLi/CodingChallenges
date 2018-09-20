@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7cefbfed-7c09-4c88-a80a-558f83efe73a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem41.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,12 +21,15 @@
   <component name="CheckStyle-IDEA-workspace">
     <option name="configuration">
       <map>
-        <entry key="last-active-plugin-version" value="5.21.1" />
+        <entry key="last-active-plugin-version" value="5.22.1" />
       </map>
     </option>
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/CodingChallenges$Problem7.ic" NAME="Problem7 Coverage Results" MODIFIED="1532214900574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.peter.dailyCodingProblem.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CodingChallenges$Problem17.ic" NAME="Problem17 Coverage Results" MODIFIED="1533599714188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.peter.dailyCodingProblem.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/CodingChallenges$Problem4.ic" NAME="Problem4 Coverage Results" MODIFIED="1531874709951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -34,32 +43,41 @@
     <session id="-1393554372">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.closed" value="37" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="11" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.open.time.7" value="5" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.open.time.9" value="11" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="class" value="1" />
+          <entry key="java" value="72" />
+          <entry key="snippet" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="72" />
+          <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1063" />
+          <entry key="java" value="19678" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1063" />
+          <entry key="JAVA" value="19678" />
         </counts>
       </usages-collector>
     </session>
@@ -70,59 +88,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem12.java">
+        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem32.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="216">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem13.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem41.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem14.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+            <state relative-caret-position="864">
+              <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
               <folding>
-                <element signature="e#272#273#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem16.java">
+        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem42.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem17.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem18.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="10" column="169" selection-start-line="10" selection-start-column="169" selection-end-line="10" selection-end-column="169" />
+            <state relative-caret-position="135">
+              <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -147,6 +137,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/com/peter/dailyCodingProblem</dir>
+      <dir>$PROJECT_DIR$/src/com/peter</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -155,8 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/peter/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/peter/MostFreItemInArray.java" />
         <option value="$PROJECT_DIR$/src/com/peter/CommonElementsIn2Arrays.java" />
         <option value="$PROJECT_DIR$/src/com/peter/MaxNumInSentences.java" />
         <option value="$PROJECT_DIR$/src/com/peter/RotationArray.java" />
@@ -176,7 +165,38 @@
         <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem15.java" />
         <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem13.java" />
         <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem14.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem17.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem19.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem20.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem21.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem22.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem24.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem23.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem25.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem26.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem27.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem28.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem29.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/otherQuestions/FindPivotIndex.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem30.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem31.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem32.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/otherQuestions/LargestNumberAtLeastTwiceOfOthers.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem33.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem34.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem35.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem36.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem37.java" />
         <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem18.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem38.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem39.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem40.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem42.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem43.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem44.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem45.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/otherQuestions/IfANumberIsPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem41.java" />
       </list>
     </option>
   </component>
@@ -187,10 +207,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
     <option name="y" value="22" />
-    <option name="width" value="1230" />
-    <option name="height" value="778" />
+    <option name="width" value="1280" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -199,54 +218,15 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingChallenges" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peter" type="462c0819:PsiDirectoryNode" />
-              <item name="dailyCodingProblem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingChallenges" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingChallenges" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="peter" type="462c0819:PsiDirectoryNode" />
-              <item name="otherQuestions" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value=":&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533594073243" />
-    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537425497576" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -260,26 +240,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.numOfVowels">
-    <configuration name="Problem13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem13" />
+  <component name="RunManager" selected="Application.Problem41">
+    <configuration name="IfANumberIsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.peter.otherQuestions.IfANumberIsPalindrome" />
       <module name="CodingChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.peter.dailyCodingProblem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Problem14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem14" />
-      <module name="CodingChallenges" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.peter.dailyCodingProblem.*" />
+          <option name="PATTERN" value="com.peter.otherQuestions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,8 +267,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem4" />
+    <configuration name="Problem38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem38" />
       <module name="CodingChallenges" />
       <extension name="coverage">
         <pattern>
@@ -313,8 +280,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problem7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem7" />
+    <configuration name="Problem39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem39" />
       <module name="CodingChallenges" />
       <extension name="coverage">
         <pattern>
@@ -326,12 +293,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="numOfVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.peter.otherQuestions.numOfVowels" />
+    <configuration name="Problem40" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem40" />
       <module name="CodingChallenges" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.peter.otherQuestions.*" />
+          <option name="PATTERN" value="com.peter.dailyCodingProblem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Problem41" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.peter.dailyCodingProblem.Problem41" />
+      <module name="CodingChallenges" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.peter.dailyCodingProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,19 +321,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Problem2" />
-      <item itemvalue="Application.Problem4" />
-      <item itemvalue="Application.Problem7" />
-      <item itemvalue="Application.Problem13" />
-      <item itemvalue="Application.Problem14" />
-      <item itemvalue="Application.numOfVowels" />
+      <item itemvalue="Application.Problem38" />
+      <item itemvalue="Application.Problem39" />
+      <item itemvalue="Application.Problem40" />
+      <item itemvalue="Application.IfANumberIsPalindrome" />
+      <item itemvalue="Application.Problem41" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.numOfVowels" />
-        <item itemvalue="Application.Problem14" />
-        <item itemvalue="Application.Problem13" />
-        <item itemvalue="Application.Problem7" />
-        <item itemvalue="Application.Problem4" />
+        <item itemvalue="Application.Problem41" />
+        <item itemvalue="Application.IfANumberIsPalindrome" />
+        <item itemvalue="Application.Problem40" />
+        <item itemvalue="Application.Problem39" />
+        <item itemvalue="Application.Problem38" />
       </list>
     </recent_temporary>
   </component>
@@ -391,28 +371,57 @@
       <workItem from="1532913536810" duration="72000" />
       <workItem from="1533010758649" duration="27000" />
       <workItem from="1533584136767" duration="296000" />
-      <workItem from="1533594010770" duration="61000" />
+      <workItem from="1533594010770" duration="5050000" />
+      <workItem from="1533616366571" duration="4646000" />
+      <workItem from="1533706598845" duration="5543000" />
+      <workItem from="1533786339789" duration="5441000" />
+      <workItem from="1533869480658" duration="3410000" />
+      <workItem from="1533970322994" duration="328000" />
+      <workItem from="1534049417761" duration="3166000" />
+      <workItem from="1534060051270" duration="1573000" />
+      <workItem from="1534108377650" duration="9967000" />
+      <workItem from="1534219441842" duration="7059000" />
+      <workItem from="1534301331568" duration="5204000" />
+      <workItem from="1534313804046" duration="267000" />
+      <workItem from="1534380554983" duration="5197000" />
+      <workItem from="1534407822806" duration="410000" />
+      <workItem from="1534485127050" duration="5000" />
+      <workItem from="1534485251052" duration="938000" />
+      <workItem from="1534826013934" duration="1420000" />
+      <workItem from="1534907553497" duration="3536000" />
+      <workItem from="1535005601778" duration="2467000" />
+      <workItem from="1535087960912" duration="2597000" />
+      <workItem from="1535322322466" duration="366000" />
+      <workItem from="1535345654901" duration="1515000" />
+      <workItem from="1535430320498" duration="6249000" />
+      <workItem from="1535592998035" duration="64000" />
+      <workItem from="1536113137259" duration="766000" />
+      <workItem from="1536114491406" duration="702000" />
+      <workItem from="1536186108551" duration="61000" />
+      <workItem from="1537328115222" duration="85000" />
+      <workItem from="1537328276239" duration="225000" />
+      <workItem from="1537423599782" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69482000" />
+    <option name="totallyTimeSpent" value="149073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="22" width="1230" height="778" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.239899" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21890146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" weight="0.32967034" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32582584" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32591414" />
       <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3290938" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
@@ -421,6 +430,7 @@
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="12" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
@@ -430,8 +440,8 @@
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24959612" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Run" order="9" sideWeight="0.49774435" weight="0.3577441" />
-      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5022556" side_tool="true" weight="0.27447698" />
+      <window_info active="true" anchor="right" id="Run" order="9" sideWeight="0.49402985" visible="true" weight="0.2003231" />
+      <window_info anchor="right" id="Coverage" order="10" sideWeight="0.5059701" side_tool="true" weight="0.21801347" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,120 +455,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/peter/MostFreItemInArray.class" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="656" selection-start-line="656" selection-end-line="656" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/MaxNumInSentences.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/peter/elevenEssentialCodingQuestions/CommonElementsIn2Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/elevenEssentialCodingQuestions/MostFreItemInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/elevenEssentialCodingQuestions/NonRepeatingCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/elevenEssentialCodingQuestions/RotationArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/elevenEssentialCodingQuestions/OneAwayStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/elevenEssentialCodingQuestions/AssignNumInMinesweeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="7" column="77" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1669">
-          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/elevenEssentialCodingQuestions/FindWhereToExpandInMinesweeper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10658">
-          <caret line="507" column="45" selection-start-line="507" selection-start-column="29" selection-end-line="507" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="907">
-          <caret line="63" column="83" selection-start-line="63" selection-start-column="83" selection-end-line="63" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -601,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="2131" column="19" selection-start-line="2131" selection-start-column="19" selection-end-line="2131" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/peter/otherQuestions/numOfVowels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -619,6 +508,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="962">
           <caret line="34" column="111" selection-start-line="34" selection-start-column="111" selection-end-line="34" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -640,31 +536,278 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem17.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        <state relative-caret-position="1560">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem16.java">
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="2" />
+        <state relative-caret-position="286">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem22.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="58" column="3" lean-forward="true" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1846">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem24.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3094">
+          <caret line="116" column="9" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="45" column="68" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/lib/tools.jar!/com/sun/tools/javac/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="37" column="49" lean-forward="true" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-770">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/otherQuestions/FindPivotIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem30.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/otherQuestions/LargestNumberAtLeastTwiceOfOthers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1274">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="657" selection-start-line="657" selection-end-line="657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem34.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem35.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem36.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem18.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="10" column="169" selection-start-line="10" selection-start-column="169" selection-end-line="10" selection-end-column="169" />
+        <state relative-caret-position="1274">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem37.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem33.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem38.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="5" column="248" lean-forward="true" selection-start-line="5" selection-start-column="248" selection-end-line="5" selection-end-column="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="904" column="18" selection-start-line="904" selection-start-column="18" selection-end-line="904" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem40.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="22" column="74" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem45.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem44.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="209" lean-forward="true" selection-start-line="8" selection-start-column="209" selection-end-line="8" selection-end-column="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem43.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/otherQuestions/IfANumberIsPalindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/jshell/jshell_console.snippet">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem42.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/peter/dailyCodingProblem/Problem41.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
