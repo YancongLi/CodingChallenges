@@ -19,3 +19,4 @@ src/com/peter/.DS_Store
 *.xml
 .idea/workspace.xml
 .idea/workspace.xml
+/src/com/peter/minimizable.java
